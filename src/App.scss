@@ -1,0 +1,78 @@
+@import './main.scss';
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.app-header {
+  background-color: #fff;
+  border-bottom: 1px solid $border-gray;
+  padding: $spacing-md 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 $spacing-md;
+    @include flex-between;
+  }
+
+  &__logo {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    color: $dark-bg;
+    min-width: 150px;
+  }
+
+  &__nav {
+    flex: 1;
+  }
+
+  &__nav-list {
+    list-style: none;
+    @include flex-between;
+    gap: $spacing-lg;
+
+    a {
+      color: $dark-bg;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      font-size: $font-size-sm;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $primary-pink;
+      }
+    }
+
+    @include mobile {
+      gap: $spacing-sm;
+      font-size: $font-size-sm;
+    }
+  }
+}
+
+.app-main {
+  flex: 1;
+  padding: $spacing-2xl $spacing-md;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.products-section {
+  &__title {
+    font-size: $font-size-xl;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: $spacing-2xl;
+    color: $primary-pink;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
