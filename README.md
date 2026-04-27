@@ -1,6 +1,7 @@
 # E-commerce Vitrine de Produtos - Econverse
 
-Projeto front-end para a vaga de Desenvolvedor Front-End Jr na Econverse.
+Projeto front-end para a vaga de Desenvolvedor Front-End Jr na Econverse.<br>
+🔗 **Repositório**: https://github.com/joao-robertoo/teste-vaga-front-end
 
 ## 🎯 Especificações
 
@@ -86,5 +87,7 @@ Projeto para teste técnico Econverse.
 
 ---
 
-**Data**: 27 de Abril de 2026
-**Desenvolvedor**: João Roberto
+**Data**: 27 de Abril de 2026<br>
+**Desenvolvedor**: João Roberto  
+**LinkedIn**: linkedin.com/in/joaorobertoo  
+**Contato**: (11) 96123-2629
